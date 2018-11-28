@@ -25,7 +25,7 @@ public class UserController {
         return principal;
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/hello1")
     public String hello() {
         return "hello1";
     }
