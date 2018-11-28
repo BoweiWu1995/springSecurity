@@ -24,4 +24,11 @@ public class UserController {
     public Object info(Principal principal) {
         return principal;
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+
+
 }
